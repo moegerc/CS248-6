@@ -28,7 +28,7 @@
     
     <fieldset>
     <legend>Your name:</legend>
-	 <p>First Name: <input type="text" name="firstName" id="fname"/></p> 
+	 <p>First Namssssssssssssssssssse: <input type="text" name="firstName" id="fname"/></p> 
 	 <p>Last Name: <input type="text" name="lastName" id="lname" /> </p>
 
 
