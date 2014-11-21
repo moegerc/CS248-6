@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+#site-navigation {
+  z-index: 9999;
+  top:0;
+  background-color:#0F0;
+  width:100%;
+}
+
+#site-navigation.fixed{
+  position:fixed;
+  z-index: 9999;
+  top:0;
+  background-color:#0F0;
+  width:100%;
+}
+
+div{
+	text-align:right;
+}
+
+h2{
+	font:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
