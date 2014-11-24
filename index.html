@@ -21,8 +21,8 @@
             <div id="nav">
             
             <div id="navbuttons">
-            <a href=""><img src="images/nav_buttons-01.png" height="15" onmouseover="this.src='images/nav_buttons_hover-01.png'" onmouseout="this.src='images/nav_buttons-01.png'"/></a>
-            <img src="images/nav_buttons-02.png" height="15" onmouseover="this.src='images/nav_buttons_hover-02.png'" onmouseout="this.src='images/nav_buttons-02.png'"/>
+            <a href="#overview"><img src="images/nav_buttons-01.png" height="15" onmouseover="this.src='images/nav_buttons_hover-01.png'" onmouseout="this.src='images/nav_buttons-01.png'"/></a>
+            <a href="#academics"><img src="images/nav_buttons-02.png" height="15" onmouseover="this.src='images/nav_buttons_hover-02.png'" onmouseout="this.src='images/nav_buttons-02.png'"/></a>
             <img src="images/nav_buttons-03.png" height="15" onmouseover="this.src='images/nav_buttons_hover-03.png'" onmouseout="this.src='images/nav_buttons-03.png'" />
             </div>
    
@@ -35,7 +35,7 @@
     	<div id="container">
         
         <div id="greatwallimg">
-        	<img src="images/wall.jpg" />
+        	<img src="images/wall.jpg" name="overview"/>
         </div>
 
         </div>
@@ -47,7 +47,7 @@
         </div>
         
          <div id="dragonimg">
-        	<img src="images/Dragon.jpg" />
+        	<img src="images/Dragon.jpg" name="academics"/>
         </div>
         
         <div id="academics">
@@ -101,6 +101,21 @@ Personal Expenses $1150 includes most meals, OIE application fee, passport fees,
 			};	
 		});
 		
+			// SMOOTH SCROLL
+			$(function() {
+ 			 $('a[href*=#]:not([href=#])').click(function() {
+  			  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      			var target = $(this.hash);
+    			  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+     			 if (target.length) {
+       			 $('html,body').animate({
+        		  scrollTop: target.offset().top
+      			  }, 1000);
+      			  return false;
+      			}
+    			}
+ 			 });
+		});
 		</script>
         
 	</body>
