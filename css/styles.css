@@ -25,7 +25,7 @@
 	text-align:right;
 	word-spacing:30px;
 	padding-top:15px;
-	padding-right:15px;
+	padding-right:50px;
 }
 
 #greatwallimg{
@@ -34,7 +34,7 @@
 
 #overviewheader{
 	margin-left:550px;
-	margin-right:50px;
+	margin-right:300px;
 	margin-top:-500px;
 }
 
@@ -44,15 +44,10 @@
 
 #academics{
 	margin-top:100px;
-	margin-left:50px;
-	margin-right:750px;
+	margin-left:25px;
+	margin-right:50px;
 }
 
-#cost{
-	margin-top:-340px;
-	margin-left:550px;
-	margin-right:-700px;
-}
 h2{
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight:bold;
@@ -64,13 +59,32 @@ h2{
 h3{
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color:#D32526;
-	font-size:18px;
+	font-size:24px;
 	font-weight:bold;
 	line-height:50px;
 	
 }
 p{
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	line-height:25px;	
+	line-height:25px;
+	font-size:20px;
+	color:#252525;
 	
+}
+table{
+	border-spacing:20px;
+	border-collapse:separate;
+}
+
+a:hover{
+	color:#F60;
+}
+a:link{
+	color:#F00;
+}
+a:visited{
+	color:#00F;
+}
+a{
+	text-decoration:none;
 }
